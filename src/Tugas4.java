@@ -192,6 +192,11 @@ public class Tugas4 extends javax.swing.JFrame {
         });
 
         jButton2.setText("Keluar");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setText("Hitung Selisih");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -326,6 +331,18 @@ public class Tugas4 extends javax.swing.JFrame {
         LocalDate updatedLocalDate = LocalDate.of(tahun, bulan, hari);
         jCalendar2.setDate(java.util.Date.from(updatedLocalDate.atStartOfDay(ZoneId.systemDefault()).toInstant()));
     }//GEN-LAST:event_jComboBox2ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        int pilihan = JOptionPane.showConfirmDialog(this,
+                "Apakah Anda yakin ingin keluar?",
+                "Konfirmasi Keluar",
+                JOptionPane.YES_NO_OPTION,
+                JOptionPane.QUESTION_MESSAGE);
+
+        if (pilihan == JOptionPane.YES_OPTION) {
+            System.exit(0);
+        }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
