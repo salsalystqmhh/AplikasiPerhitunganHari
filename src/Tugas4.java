@@ -312,7 +312,7 @@ public class Tugas4 extends javax.swing.JFrame {
         StringBuilder hasil = new StringBuilder();
         hasil.append("Selisih Hari: ").append(daysBetween).append(" hari\n");
         hasil.append("Tahun Kabisat (Tanggal Mulai): ").append(isLeapYear ? "Ya" : "Tidak").append("\n");
-        hasil.append("Hari Pertama: ").append(getNamaHariIndonesia(startDate.getDayOfWeek())).append("\n");
+        hasil.append("Hari Pertama ").append(getNamaHariIndonesia(startDate.getDayOfWeek())).append("\n");
         hasil.append("Hari Terakhir: ").append(getNamaHariIndonesia(endDate.getDayOfWeek()));
 
         jTextArea1.setText(hasil.toString());
