@@ -48,6 +48,6 @@ Aplikasi Perhitungan Selisih Hari menawarkan fitur-fitur berikut:
 - **hitungSelisihHari**: Metode untuk menghitung selisih hari antara dua tanggal yang dipilih oleh pengguna dan memberikan informasi tambahan, seperti tahun kabisat dan nama hari.
 
 ## Demo
-
+![Demo GIF](img/tugas4.gif)
 
 note : Aplikasi ini dirancang untuk memberikan pengalaman yang mudah dan intuitif bagi pengguna yang ingin menghitung selisih hari serta mendapatkan informasi terkait hari dalam bahasa Indonesia.
